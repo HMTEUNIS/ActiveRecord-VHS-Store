@@ -11,6 +11,8 @@ task :console do
   # open Pry console, similar to binding.pry
   Pry.start
 end
+'vhs'.pluralize
+'vhs'.singularize
 
 namespace :remind_me_about do
 
